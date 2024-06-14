@@ -13,6 +13,7 @@ public class HomeController {
 	
 	// Home 요청
 	// Home 요청2 hotfix
+	// Home 요청3 hotfix2
 	@GetMapping(value={"/home"})
 	public String showHomePage() {
 		return "home";
